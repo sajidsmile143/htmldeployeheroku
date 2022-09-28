@@ -1,0 +1,51 @@
+<html>
+<head><title>Form Tag</title>
+</head>
+<body>
+	<form action="" method="post" bgcolor="tan">
+	<fieldset>
+	<legend>Enter Personal details</legend>
+	<label>Name</lable><input type="text" name="fname" placeholder="enter your name">
+	<br><br>
+	<label>Password</lable><input type="password" name=""><br><br>
+	
+	<label>Gender</lable><input type="radio" name="gender" id="male"><label for="male">Male</label><input type="radio" name="gender" id="female"><label for="female">Female</label><br><br>
+	<label>Hobbies</lable><input type="checkbox" name="hobby" id="music"><label for="music">Music</label><input type="checkbox" name="hobby" id="cricket"><label for="cricket">cricket</label><br><br>
+	<label>Message</lable><textarea rows="10" cols="60">sajid</textarea><br><br>
+	<label>Country</lable><select name="" size="2" multiple>
+							<option selected value="pk">pakistan</option>
+							<option value="ind">india</option>
+							<option value="cn">china</option>
+							<option value="us">Usa</option>
+						</select><br/><br>
+		<label>Cars</lable><select>
+				<optgroup label="Toyota">
+							<option>inova</option>
+							<option>fortuner</option>
+							<option>shaper</option>
+							</optgroup>
+				<optgroup label="suzuki">
+							<option selected>alto</option>
+							<option>mehran</option>
+							<option>jafna</option>
+							</optgroup>
+						</select><br/><br/>							
+		<label> Cars </lable><input list="cars">
+							<datalist id="cars">
+								<option value="inova">
+								<option value="alto">
+								<option value="sho">
+								<option value="hgh">
+							</datalist>	
+							<br><br>
+		<label> Upload file</lable> <input type="file" accept="images/*" name="">
+		<br><br>
+		<input type="submit" value="save">
+		<input type="Reset" value="click">
+		<!-- <input type="image" src="images/html.png" width="30px" height="30px" value="image" alt="submit button"> -->
+		</fieldset>
+	</form>
+</body>
+
+
+</html>
